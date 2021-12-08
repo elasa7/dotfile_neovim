@@ -14,4 +14,4 @@ vim.cmd('colorscheme nord')
   nmap <S-Tab> :tabprevious<CR>
   nnoremap <C-t> :tabnew<Space>
  ]]
- 
+

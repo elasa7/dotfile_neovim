@@ -99,6 +99,11 @@ _G.packer_plugins = {
     path = "/Users/ellasa/.local/share/nvim/site/pack/packer/start/cmp-vsnip",
     url = "https://github.com/hrsh7th/cmp-vsnip"
   },
+  ["lspkind-nvim"] = {
+    loaded = true,
+    path = "/Users/ellasa/.local/share/nvim/site/pack/packer/start/lspkind-nvim",
+    url = "https://github.com/lspkind-nvim"
+  },
   ["lualine.nvim"] = {
     loaded = true,
     path = "/Users/ellasa/.local/share/nvim/site/pack/packer/start/lualine.nvim",
