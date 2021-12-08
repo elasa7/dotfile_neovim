@@ -31,4 +31,6 @@ use {'hrsh7th/cmp-vsnip'}
 use {'hrsh7th/vim-vsnip'}
 use {'windwp/nvim-autopairs'}
 use{'onsails/lspkind-nvim'}
+  use {'folke/which-key.nvim'}
+    use {"akinsho/toggleterm.nvim"}
 end)
