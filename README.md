@@ -8,9 +8,9 @@
 
 ## Requires </br>
 
-- [Neovim v0.6.0 ](https://github.com/neovim/neovim/releases/tag/v0.6.0) </br>
 - [Homebrew](https://brew.sh) </br>
-- [Node / npm](https://nodejs.org/en/) <em>\(brew instal node\)</em> </br>
+- [Neovim v0.6.0 ](https://github.com/neovim/neovim/releases/tag/v0.6.0) <em>\(brew install neovim\)</em> </br>
+- [Node / npm](https://nodejs.org/en/) <em>\(brew install node\)</em> </br>
   </br>
   </br>
   Plugin menager <em>\(Packer\)</em>
