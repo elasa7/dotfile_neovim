@@ -20,7 +20,7 @@ return require('packer').startup(function(use)
 
 use {'akinsho/bufferline.nvim', requires = 'kyazdani42/nvim-web-devicons'}
 use {'morhetz/gruvbox'}
-
+use {'folke/tokyonight.nvim'}
 
 use {'lukas-reineke/format.nvim'}
 

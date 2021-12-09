@@ -19,4 +19,16 @@ map('v', '>', '>gv', {noremap = true, silent = false})
   nmap <S-Tab> :tabprevious<CR>
   nnoremap <C-t> :tabnew<Space>
  ]]
+---------------Copy whole buffer-----------------------
+vim.api.nvim_set_keymap("n","<C-a>", ":%y<cr>",{noremap=false,silent=true})
+
+
+---------------Move Line Up Down----------------------
+vim.api.nvim_set_keymap('v', 'J', ":m '>+1<CR>gv=gv", { noremap=true })
+vim.api.nvim_set_keymap('v', 'K', ":m '<-2<CR>gv=gv", { noremap=true })
+
+
+-------------------------------------
+vim.api.nvim_set_keymap("i","<C-o>", "<esc>o",{} )
+
 
