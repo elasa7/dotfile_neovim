@@ -8,6 +8,7 @@ require('autopair-config')
 require('keybindings')
 require('whichkey-config')
 require('bufferline-config')
+require('telescope-config')
 -- set color theme
 vim.cmd('colorscheme nord')
 
