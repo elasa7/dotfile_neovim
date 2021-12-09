@@ -11,6 +11,5 @@ require('bufferline-config')
 require('telescope-config')
 require('format-config')
 -- set color theme
-vim.cmd('colorscheme Gruvbox')
-
-
+--vim.cmd('colorscheme gruvbox')
+vim.cmd('colorscheme tokyonight')

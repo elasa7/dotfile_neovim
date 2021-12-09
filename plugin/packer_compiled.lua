@@ -99,6 +99,11 @@ _G.packer_plugins = {
     path = "/Users/ellasa/.local/share/nvim/site/pack/packer/start/cmp-vsnip",
     url = "https://github.com/hrsh7th/cmp-vsnip"
   },
+  ["format.nvim"] = {
+    loaded = true,
+    path = "/Users/ellasa/.local/share/nvim/site/pack/packer/start/format.nvim",
+    url = "https://github.com/lukas-reineke/format.nvim"
+  },
   gruvbox = {
     loaded = true,
     path = "/Users/ellasa/.local/share/nvim/site/pack/packer/start/gruvbox",
@@ -169,6 +174,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/ellasa/.local/share/nvim/site/pack/packer/start/toggleterm.nvim",
     url = "https://github.com/akinsho/toggleterm.nvim"
+  },
+  ["tokyonight.nvim"] = {
+    loaded = true,
+    path = "/Users/ellasa/.local/share/nvim/site/pack/packer/start/tokyonight.nvim",
+    url = "https://github.com/folke/tokyonight.nvim"
   },
   ["vim-vsnip"] = {
     loaded = true,
