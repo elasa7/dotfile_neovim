@@ -31,7 +31,7 @@ git clone git@github.com:elasa7/dotfile_neovim.git ~/.config/nvim
 
 </br></br>
 
-### **`npm install`** (start_motion)
+### **`npm install`**
 
 </br>
 
@@ -77,12 +77,12 @@ In file
 </br>
 
 ~/.config/nvim/lua/lsp/language_servers.lua
-</br
+</br></br>
 
 Change user account
 
 <p align="center" width="100%">
-    <img src="https://github.com/elasa7/dotfile_neovim/img/sumneko_user.png">
+    <img  src="https://elasa7.github.io/img/sumneko_user.png">
 
 </p>
 </br>
