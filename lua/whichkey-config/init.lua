@@ -24,6 +24,7 @@ local mappings = {
   E = {":e ~/.config/nvim/init.lua<cr>", "Edit config"},
   f = {":Telescope find_files<cr>", "Telescope Find Files"},
   r = {":Telescope live_grep<cr>", "Telescope Live Grep"},
+  o = {":Telescope oldfiles<cr>", "Telescope oldfiles"},
   l = {
     name = "LSP",
     i = {":LspInfo<cr>", "Connected Language Servers"},

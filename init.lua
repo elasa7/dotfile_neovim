@@ -9,7 +9,8 @@ require('keybindings')
 require('whichkey-config')
 require('bufferline-config')
 require('telescope-config')
+require('format-config')
 -- set color theme
-vim.cmd('colorscheme nord')
+vim.cmd('colorscheme Gruvbox')
 
 
