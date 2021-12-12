@@ -101,10 +101,15 @@ Normal Mode
 
 </br>
 
-Insert Mode
+Visual Mode
 
 - Move Line / Block Line Up -> shift +K
 - Move Line / Block Line Down -> shift +J
+
+</br>
+
+Insert Mode
+
 - Move next line --> ctrl + o
 
 </br></br></br>
