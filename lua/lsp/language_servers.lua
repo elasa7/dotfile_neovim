@@ -1,7 +1,7 @@
 -- Setup lspconfig.
 local capabilities = require('cmp_nvim_lsp').update_capabilities(vim.lsp.protocol.make_client_capabilities())
 
-require'lspconfig.configs'.ls_emmet = {
+require'lspconfig.configs'.emmet_ls= {
   default_config = {
     cmd = {'emmet-ls', '--stdio'},
     filetypes = {'html', 'css', 'scss' }, -- Add the languages you use, see language support
@@ -11,6 +11,7 @@ require'lspconfig.configs'.ls_emmet = {
     settings = {}
   }
 }
+
 
 local system_name
 if vim.fn.has("mac") == 1 then
@@ -31,7 +32,7 @@ local runtime_path = vim.split(package.path, ';')
 table.insert(runtime_path, "lua/?.lua")
 table.insert(runtime_path, "lua/?/init.lua")
 
-local langservers = {'html', 'cssls', 'ls_emmet', 'tsserver', 'pylsp', 'sumneko_lua'}
+local langservers = {'html', 'cssls', 'emmet_ls', 'tsserver', 'pylsp', 'sumneko_lua'}
 
 for _, server in ipairs(langservers) do
   if server == 'sumneko_lua' then
@@ -63,3 +64,4 @@ for _, server in ipairs(langservers) do
     require'lspconfig'[server].setup {capabilities = capabilities}
   end
 end
+
