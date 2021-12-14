@@ -14,11 +14,11 @@ map('v', '<', '<gv', {noremap = true, silent = false})
 map('v', '>', '>gv', {noremap = true, silent = false})
 
 
- vim.cmd[[
-   nmap <Tab> :tabnext<CR>
-  nmap <S-Tab> :tabprevious<CR>
-  nnoremap <C-t> :tabnew<Space>
- ]]
+-- vim.cmd[[
+--   nmap <Tab> :tabnext<CR>
+--  nmap <S-Tab> :tabprevious<CR>
+--  nnoremap <C-t> :tabnew<Space>
+-- ]]
 ---------------Copy whole buffer-----------------------
 vim.api.nvim_set_keymap("n","<C-a>", ":%y<cr>",{noremap=false,silent=true})
 
