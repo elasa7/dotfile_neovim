@@ -180,6 +180,11 @@ _G.packer_plugins = {
     path = "/Users/ellasa/.local/share/nvim/site/pack/packer/start/tokyonight.nvim",
     url = "https://github.com/folke/tokyonight.nvim"
   },
+  ["vim-surround"] = {
+    loaded = true,
+    path = "/Users/ellasa/.local/share/nvim/site/pack/packer/start/vim-surround",
+    url = "https://github.com/tpope/vim-surround"
+  },
   ["vim-vsnip"] = {
     loaded = true,
     path = "/Users/ellasa/.local/share/nvim/site/pack/packer/start/vim-vsnip",

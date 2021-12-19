@@ -36,6 +36,7 @@ use {'windwp/nvim-autopairs'}
 use{'onsails/lspkind-nvim'}
 use {'folke/which-key.nvim'}
 use {"akinsho/toggleterm.nvim"}
+use 'tpope/vim-surround'
 
 use {
   'nvim-telescope/telescope.nvim',
