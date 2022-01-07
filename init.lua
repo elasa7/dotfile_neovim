@@ -10,6 +10,7 @@ require('whichkey-config')
 require('bufferline-config')
 require('telescope-config')
 require('format-config')
+require('emmet_ls_config')
 -- set color theme
 --vim.cmd('colorscheme gruvbox')
 vim.cmd('colorscheme tokyonight')
