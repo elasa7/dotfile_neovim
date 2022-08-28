@@ -1,11 +1,8 @@
-<style>
-r { color: Red }
-o { color: Orange }
-g { color: Green }
-</style>
 
 
-----------------<r>outdated</r>------------------
+----------------<strong>OUTDATED</Strong>------------------
+
+
 
 # Minimal neovim - lua config
 
