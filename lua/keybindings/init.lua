@@ -13,6 +13,9 @@ map('n', '<C-e>', ':NvimTreeToggle<CR>', {noremap = true, silent = true})
 map('v', '<', '<gv', {noremap = true, silent = false})
 map('v', '>', '>gv', {noremap = true, silent = false})
 
+map('v', 'd', '"dd', {noremap = true, silent = false})
+map('n', 'd', '"dd', {noremap = true, silent = false})
+
 
 -- vim.cmd[[
 --   nmap <Tab> :tabnext<CR>
